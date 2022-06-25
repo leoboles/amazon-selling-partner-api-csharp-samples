@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32228.430
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amazon.SellingPartner.Auth.Tests", "tests\Amazon.SellingPartner.Auth.Tests\Amazon.SellingPartner.Auth.Tests.csproj", "{DD42ECCD-5FC5-4D6E-AD15-99E7BF2F966E}"
 EndProject
@@ -89,6 +89,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.App", "Exmaple.App\Example.App.csproj", "{DE4720F0-462B-4320-B944-38EB214F4DE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Checkomatic.Api", "Checkomatic.Api", "{AABE589A-3ED4-4869-A998-6E1CD6149058}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkomatic.Amazon.SellingPartner.Api", "checkomatic\Checkomatic.Amazon.SellingPartner.Api\Checkomatic.Amazon.SellingPartner.Api.csproj", "{46C90C44-A0E7-4B9B-81CA-7D151C5AE9C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -248,6 +254,14 @@ Global
 		{27FEEFBB-9543-4510-A4F9-F6FD692A13AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27FEEFBB-9543-4510-A4F9-F6FD692A13AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27FEEFBB-9543-4510-A4F9-F6FD692A13AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE4720F0-462B-4320-B944-38EB214F4DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4720F0-462B-4320-B944-38EB214F4DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4720F0-462B-4320-B944-38EB214F4DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4720F0-462B-4320-B944-38EB214F4DE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46C90C44-A0E7-4B9B-81CA-7D151C5AE9C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46C90C44-A0E7-4B9B-81CA-7D151C5AE9C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46C90C44-A0E7-4B9B-81CA-7D151C5AE9C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46C90C44-A0E7-4B9B-81CA-7D151C5AE9C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -292,6 +306,7 @@ Global
 		{52BE384F-2A2B-4DF0-842E-46657B37BFEE} = {440A2CF1-C2F8-4478-800D-AFB89FF332C9}
 		{6E6D66E5-7330-48AA-A1B3-76B6C1075066} = {440A2CF1-C2F8-4478-800D-AFB89FF332C9}
 		{27FEEFBB-9543-4510-A4F9-F6FD692A13AD} = {440A2CF1-C2F8-4478-800D-AFB89FF332C9}
+		{46C90C44-A0E7-4B9B-81CA-7D151C5AE9C2} = {AABE589A-3ED4-4869-A998-6E1CD6149058}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1C993A3E-8EDF-4267-A1AC-93B805A1527A}
